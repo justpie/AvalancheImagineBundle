@@ -1,5 +1,5 @@
 {
-    "name": "avalanche123/imagine-bundle",
+    "name": "justpie/imagine-bundle",
     "description": "Image manipulation using Imagine and Twig Filters.",
     "keywords": ["image manipulation", "imagine"],
     "homepage": "https://github.com/avalanche123/AvalancheImagineBundle",
@@ -25,6 +25,9 @@
     },
     "require-dev": {
         "makasim/temp-file": "dev-master"
+    },
+    "replace": {
+      "avalanche123/imagine-bundle": "*"
     },
     "suggest": {
         "symfony/twig-bundle": "2.*"
